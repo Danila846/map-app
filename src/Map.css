@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.map-container {
+	height: calc(100vh - 4px);
+	width: calc(100vw - 4px);
+}
+.menu {
+	position: absolute;
+	top: 15px;
+	left: 15px;
+}
+.menu input {
+	display: none;
+}
+.virtual-model {
+	position: absolute;
+	top: 60px;
+	left: 10px;
+	padding: 10px;
+}
+.virtual-model input {
+	display: none;
+}
+.calculation-box {
+	height: 75px;
+	width: 150px;
+	position: absolute;
+	bottom: 40px;
+	left: 10px;
+	background-color: rgba(255, 255, 255, 0.9);
+	padding: 15px;
+	text-align: center;
+}
+
+p {
+	font-family: "Open Sans";
+	margin: 0;
+	font-size: 13px;
+}
+
+.layers {
+	position: absolute;
+	bottom: 10px;
+	left: 120px;
+	padding: 5px;
+	background-color: rgba(141, 141, 141, 0.294);
+	user-select: none;
+}
+
+.layers a {
+	color: rgba(0, 0, 0, 1);
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-left: 20px;
+}
+.layers a:first-child {
+	margin-left: 0px;
+}
+
+.map-style {
+	user-select: none;
+	position: relative;
+	overflow: hidden;
+	display: inline-block;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 14px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color:rgb(54, 28, 60);
+	padding: 5px 10px;
+	background-color:rgb(197, 215, 244);
+	border: 2px solid rgb(63, 63, 63);
+	border-radius: 5px;
+	overflow: hidden;
+	margin-right: 10px;
+}
+.mapboxgl-popup-content{
+	padding: 3px 5px;
+}
